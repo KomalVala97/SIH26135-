@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KAUSHAL360 — Longitudinal Skill & Employment Intelligence</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div id="loginView" class="login-shell">
+  <div class="login-left">
+    <div class="brand-mark">K<span>360</span></div>
+    <div class="eyebrow">SIH26135 · GOVERNMENT OUTCOME INTELLIGENCE</div>
+    <h1>From Training Completion<br><span>to Real-World Outcomes.</span></h1>
+    <p>Measure what happens after certification: employment, retention, wages, relevance and skill gaps.</p>
+    <div class="pill-row"><span>TRACK</span><span>VERIFY</span><span>IMPROVE</span></div>
+    <div class="integrity">DEMO / SYNTHETIC DATA · SIMULATED CONNECTORS</div>
+  </div>
+  <div class="login-card">
+    <div class="mini-brand"><b>KAUSHAL360</b><span>DEMO ACCESS</span></div>
+    <h2>Sign in to the intelligence platform</h2>
+    <p class="muted">Use a demo role below. No external credentials required.</p>
+    <form id="loginForm">
+      <label>Email<input id="email" value="admin@kaushal360.demo" type="email"></label>
+      <label>Password<input id="password" value="admin123" type="password"></label>
+      <button class="primary full">Enter Demo</button>
+    </form>
+    <div id="loginError" class="error"></div>
+    <div class="demo-accounts">
+      <button data-demo="admin">Government Admin</button>
+      <button data-demo="provider">Training Provider</button>
+      <button data-demo="officer">Field Officer</button>
+      <button data-demo="trainee">Trainee</button>
+    </div>
+  </div>
+</div>
+
+<div id="appView" class="app hidden">
+  <aside class="sidebar">
+    <div class="side-brand"><div class="brand-mark small">K<span>360</span></div><div><b>KAUSHAL360</b><small>Outcome Intelligence</small></div></div>
+    <div class="demo-badge">● DEMO MODE</div>
+    <nav id="nav"></nav>
+    <div class="side-bottom">
+      <div class="privacy-mini"><b>Consent-first</b><span>Outcome tracking respects trainee consent.</span></div>
+      <button id="resetBtn" class="ghost">↻ Reset Demo</button>
+      <button id="logoutBtn" class="ghost">↪ Logout</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="search-wrap"><span>⌕</span><input id="globalSearch" placeholder="Search trainee, employer, provider, course…"><div id="searchResults" class="search-results hidden"></div></div>
+      <div class="top-actions"><button id="notifBtn" class="icon-btn">♢<i>4</i></button><button class="avatar" id="userBtn">PA</button></div>
+    </header>
+    <section id="content"></section>
+  </main>
+</div>
+
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="modal-close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

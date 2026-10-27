@@ -1,0 +1,16 @@
+KAUSHAL360 — PROGRAMME IMPACT REPORT
+DEMO / SYNTHETIC DATA
+PROVIDER REPORT: Maharashtra Skill Hub
+Generated: 26 Oct 2026 20:16
+User: Provider Manager (PROVIDER)
+
+Training reach: 132 trainees
+Certification: 94.7%
+Employment: 50.8%
+Verified employment records: 50
+
+Longitudinal outcome tracking includes placement, employment, retention, wage progression and training relevance.
+Priority skill gap: PLC Programming / advanced industrial automation.
+Recommended action: Add advanced PLC module to the next training cycle.
+
+This report contains synthetic prototype data for SIH26135 evaluation and is not an official government statistic.
